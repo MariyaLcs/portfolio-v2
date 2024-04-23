@@ -1,6 +1,12 @@
 import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedinIn,
+  faGithub,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
@@ -11,17 +17,43 @@ export default function Home() {
 
       <div className={styles.container}>
         <div className={styles.leftColumn}>
-          <h1>Mariya Podosinova</h1>
-          <p>Full Stack Engineer</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-            quis sed, adipisci ratione necessitatibus saepe!
-          </p>
-          <nav>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-          </nav>
+          <div>
+            <h1>Mariya Podosinova</h1>
+            <p>Full Stack Engineer</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
+              quis sed, adipisci ratione necessitatibus saepe!
+            </p>
+            <nav>
+              <a href="#about">About</a>
+              <a href="#experience">Experience</a>
+              <a href="#projects">Projects</a>
+            </nav>
+          </div>
+
+          <div className={styles.socials}>
+            <a
+              href="https://www.linkedin.com/in/yourprofile"
+              aria-label="LinkedIn"
+              className={styles.socialIcon}
+            >
+              <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+            <a
+              href="https://github.com/yourusername"
+              aria-label="GitHub"
+              className={styles.socialIcon}
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a
+              href="https://twitter.com/yourusername"
+              aria-label="Twitter"
+              className={styles.socialIcon}
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+          </div>
         </div>
         <div className={styles.rightColumn}>
           <section id="about" className={styles.section}>
