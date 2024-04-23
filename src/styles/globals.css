@@ -1,12 +1,5 @@
-@media (max-width: 768px) {
-  .leftColumn {
-    position: relative; /* no longer fixed */
-    width: 100%; /* full width */
-    height: auto; /* adjust height as necessary */
-  }
-
-  .rightColumn {
-    margin-left: 0; /* reset margin */
-    width: 100%; /* full width */
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

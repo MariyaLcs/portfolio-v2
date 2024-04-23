@@ -15,15 +15,15 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
 }
 
 .rightColumn {
   margin-left: 30%;
   width: 70%;
   overflow-y: auto;
-  padding: 2rem;
   box-sizing: border-box;
+  padding: 2rem 10rem;
 }
 
 .leftColumn h1 {
@@ -72,4 +72,20 @@
 .rightColumn p strong {
   font-weight: bold;
   color: #ccd6f6;
+}
+
+.leftColumn h1,
+.leftColumn p,
+.leftColumn nav a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.rightColumn section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.rightColumn section:first-of-type {
+  margin-top: 2rem;
 }
