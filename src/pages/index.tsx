@@ -58,27 +58,29 @@ export default function Home() {
         <div className={styles.rightColumn}>
           <section id="about" className={styles.section}>
             <p>
-              Back in 2012, I decided to try my hand at creating custom Tumblr
-              themes and tumbled head first into the rabbit hole of coding and
-              web development. Fast-forward to today, and I’ve had the privilege
-              of building software for an advertising <strong>agency</strong>, a
-              start-up, a huge corporation, and a digital product studio.
+              As a seasoned
+              <strong> Full Stack Engineering Senior Analyst</strong> my journey
+              in software engineering has been defined by innovation and a
+              customer-centric approach. With a foundation in mechanical
+              engineering and a commitment to exceptional service, I navigate
+              complex challenges with a distinctive strategy.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              facilis molestias, doloremque placeat reprehenderit ex nemo. Minus
-              explicabo magni maiores <strong>minima</strong> excepturi corrupti
-              tenetur tempore nihil. Voluptatibus non praesentium illo est
-              tenetur voluptatum impedit saepe porro ex id, libero dolorem
-              repudiandae atque illum a dolores rem dolorum et magni distinctio?
+              In the dynamic fields of{" "}
+              <strong>
+                full-stack development, testing, and cloud services
+              </strong>
+              , my expertise in JavaScript, Java, AWS, and Agile methodologies
+              has been instrumental in delivering solutions that meet the
+              diverse and changing needs of our clients.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              facilis molestias, doloremque placeat reprehenderit ex nemo. Minus
-              explicabo magni maiores minima excepturi corrupti tenetur tempore
-              nihil. <strong>Voluptatibus</strong> non praesentium illo est
-              tenetur voluptatum impedit saepe porro ex id, libero dolorem
-              repudiandae atque illum a dolores rem dolorum et magni distinctio?
+              Holding certifications in testing, AWS, and Scrum, I&apos;m proud
+              of my dedication to professional growth and technical excellence.
+              My passion lies in harnessing my broad skill set to craft
+              <strong> innovative software engineering solutions</strong> that
+              drive client success. Let&apos;s connect and{" "}
+              <strong>forge new paths</strong> towards exceptional achievements.
             </p>
           </section>
           <section id="experience" className={styles.section}>
